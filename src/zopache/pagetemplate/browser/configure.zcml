@@ -12,7 +12,7 @@
       />
 
   <browser:addMenuItem
-      class="zopache.pagetemplate.ZopachePageTemplate"
+      class="zopache.pagetemplate.pagetemplate.ZopachePageTemplate"
       title="Page Template"
       description="A simple, content-based Page Template"
       permission="zope.ManageContent"
@@ -22,7 +22,7 @@
   <browser:addform
       schema="zopache.pagetemplate.interfaces.IZopachePageTemplate"
       label="Add a Page Template"
-      content_factory="zopache.pagetemplate.ZopachePageTemplate"
+      content_factory="zopache.pagetemplate.pagetemplate.ZopachePageTemplate"
       name="zopache.pagetemplate.ZopachePageTemplate"
       permission="zope.ManageContent"
       />
